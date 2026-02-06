@@ -11,3 +11,4 @@ $order_id = $conn->insert_id;
 
 header("Location:order.php?id=$order_id");
 exit;
+?>
